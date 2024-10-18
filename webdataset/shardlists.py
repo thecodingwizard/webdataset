@@ -406,7 +406,7 @@ class DirectoryShardList(IterableDataset):
     def __init__(
         self,
         path,
-        pattern="*.{tar,tgz,tar.tgz}",
+        pattern="*.tar",
         poll=1,
         timeout=1e12,
         mode="resample",
